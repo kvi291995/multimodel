@@ -1,0 +1,59 @@
+{
+  "openai_example": {
+    "provider": "openai",
+    "model_name": "gpt-4",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {
+      "response_format": {"type": "text"}
+    }
+  },
+  
+  "anthropic_example": {
+    "provider": "anthropic",
+    "model_name": "claude-3-sonnet-20240229",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {}
+  },
+  
+  "google_example": {
+    "provider": "google",
+    "model_name": "gemini-pro",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {
+      "safety_settings": {}
+    }
+  },
+  
+  "ollama_local_example": {
+    "provider": "ollama",
+    "model_name": "llama2",
+    "base_url": "http://localhost:11434",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {}
+  },
+  
+  "custom_openai_compatible_example": {
+    "provider": "custom",
+    "model_name": "your-model-name",
+    "base_url": "https://your-api-endpoint.com/v1",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {}
+  },
+  
+  "azure_openai_example": {
+    "provider": "custom",
+    "model_name": "gpt-4",
+    "base_url": "https://your-resource.openai.azure.com/",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "extra_params": {
+      "api_version": "2023-05-15"
+    }
+  }
+}
+

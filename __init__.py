@@ -1,4 +1,8 @@
 """
-Agents package for multi-model AI system
+LLM package
 """
+
+from .llm_manager import LLMManager, MultiAgentLLMManager
+
+__all__ = ['LLMManager', 'MultiAgentLLMManager']
 
