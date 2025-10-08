@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment
+.env
+
+# Logs
+logs/*.log
+logs/
+
+# Generated files
+*.png
+*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test_*.py
+*_test.py
+check_*.py
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
